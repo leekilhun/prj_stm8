@@ -1,0 +1,15 @@
+{
+	"folders": [
+		{
+			"path": "stm8s105_fw"
+		}
+  ],
+  "settings": {
+"cmake.configureArgs": [
+			"-DSTM8_TOOLCHAIN_DIR=C:/tools/sdcc",
+			"-DCMAKE_MAKE_PROGRAM=C:/tools/xpack-windows-build-tools-4.2.1-2/bin/make.exe"
+		],
+		"cmake.generator": "MinGW Makefiles"	
+   
+  }
+}
